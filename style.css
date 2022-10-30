@@ -1,0 +1,88 @@
+.box1{
+    display: inline-block;
+    width:800px;
+    height: 20px;
+    background-color: white;
+    /* display: inline; */
+    /* text-align: center; */
+    text-align: left;
+    
+}
+.box2{
+    width: 231px;
+    height: 34px;
+    background-color: white;
+    color: black;
+    display: inline;
+    font size: 12px 
+    ;
+    /* display: none ; */
+    /* visibility: hidden; */
+}
+.box3{
+    display: inline-block;
+    width: 295px;
+    height: 160px;
+    background-color: white;
+    /* display: inline; */
+    /* text-align: center; */
+    text-align: left; 
+    padding: 74px;
+    padding-right: 74px;
+    font-size: 45px;
+}
+.box4{
+    width: 231px;
+    height: 34px;
+    background-color: white;
+    display: inline;
+    border: 2px solid black;
+    text-transform: capitalize;
+}
+.first{
+    background-color:white;
+    width: 288px;
+    height: 78px;
+    padding: 5px;
+    text-transform: capitalize;
+    /* line-height: 2.5px; */
+    font-size: 13px;
+    padding: 5px;
+
+}
+.second{
+    background-color: blue;
+    background-color:white;
+    width: 330px;
+    height: 87px;
+    padding: 30px;
+    padding-left: 6px;
+    padding-top: 5px;
+    font-size: 13px;
+    color: #cec0ad;
+}
+third{
+    display: inline;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  img {
+    max-width: 100%
+  }
+  .image {
+    flex-basis: 70%;
+    order: 2;
+  }
+  .text {
+    color: black;
+    padding-left: 20px;
+    font: italic 10px "Fira Sans", serif;
+  }
+  .footer{
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+  
